@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import './index.css';
 
-import MyTextField from "./mytextfield";
-import MyPasswordField from './mypasswordfield';
-import MyLoginBox from './myloginbox';
+
+import MyLoginBox from './component/myInnerSqure';
+
+import MyLogin from './component/myUseReducer';
+
 ReactDOM.render(
-  
-  <MyLoginBox/>,
+  <div>
+  <MyLogin/>
+</div>,
+ // <MyLoginBox/>,
   document.getElementById('root')
 );

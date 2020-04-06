@@ -6,12 +6,10 @@ import './index.css';
 
 import MyLoginBox from './component/myInnerSqure';
 
-import MyLogin from './component/myUseReducer';
-
+import LoginForm from './component/loginForm';
 ReactDOM.render(
   <div>
-  <MyLogin/>
+  <LoginForm/>
 </div>,
- // <MyLoginBox/>,
   document.getElementById('root')
 );

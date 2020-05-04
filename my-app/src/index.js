@@ -1,15 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
 import './index.css';
 
+import LoginFormComponent from '../src/components/loginFormComponent';
 
-import MyLoginBox from './component/myInnerSqure';
 
-import LoginForm from './component/loginForm';
 ReactDOM.render(
   <div>
-  <LoginForm/>
+  <LoginFormComponent />
 </div>,
   document.getElementById('root')
 );
